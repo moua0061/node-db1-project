@@ -1,3 +1,7 @@
+
+const Accounts = require('./accounts-model')
+// const {} = require('./accounts-middleware')
+
 const router = require('express').Router()
 
 router.get('/', (req, res, next) => {
